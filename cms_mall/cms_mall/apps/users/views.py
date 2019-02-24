@@ -9,4 +9,7 @@ class UserView(APIView):
     def get(self,request):
         a=88
         b=99
+
+        q=222
+        y=333
         return Response({'data':"good"})
