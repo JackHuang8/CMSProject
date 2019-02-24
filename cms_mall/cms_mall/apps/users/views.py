@@ -12,4 +12,8 @@ class UserView(APIView):
 
         q=222
         y=333
+        x = 666
+
+        u=777
+
         return Response({'data':"good"})
