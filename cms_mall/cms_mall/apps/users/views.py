@@ -7,4 +7,5 @@ from rest_framework.views import APIView
 
 class UserView(APIView):
     def get(self,request):
+        a=11
         return Response({'data':"good"})
